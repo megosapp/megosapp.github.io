@@ -2,9 +2,9 @@
   <v-layout column justify-center align-center>
     <v-flex xs12 sm8 md6>
       <v-card>
-        <v-card-media>
+        <v-responsive>
         <v-img src="/header.jpg" alt="header" />
-        </v-card-media>
+        </v-responsive>
       </v-card>
       <v-card>
         <v-card-title class="headline">Welcome to the Vuetify + Nuxt.js template</v-card-title>
