@@ -1,28 +1,40 @@
 <template>
-  <v-layout column justify-center align-center>
-    <v-flex xs12 sm8 md6>
-      <v-card>
-        <v-card-media>
-        <v-img src="/header.jpg" alt="header" />
-        </v-card-media>
-      </v-card>
-      <v-card>
-        <v-card-title class="headline">桜島の降灰予報をあなたの手のひらで</v-card-title>
-        <v-card-text>
-          <p>Vuetify is a progressive Material Design component framework for Vue.js. It was designed to empower developers to create amazing applications.</p>
-          <p>For more information on Vuetify, check out the <a href="https://vuetifyjs.com" target="_blank">documentation</a>.</p>
-          <p>If you have questions, please join the official <a href="https://chat.vuetifyjs.com/" target="_blank" title="chat">discord</a>.</p>
-          <p>Find a bug? Report it on the github <a href="https://github.com/vuetifyjs/vuetify/issues" target="_blank" title="contribute">issue board</a>.</p>
-          <p>Thank you for developing with Vuetify and I look forward to bringing more exciting features in the future.</p>
-          <div class="text-xs-right">
-            <em><small>&mdash; John Leider</small></em>
-          </div>
-          <hr class="my-3">
-          <a href="https://nuxtjs.org/" target="_blank">Nuxt Documentation</a>
-          <br>
-          <a href="https://github.com/nuxt/nuxt.js" target="_blank">Nuxt GitHub</a>
-        </v-card-text>
-      </v-card>
-    </v-flex>
-  </v-layout>
+  <v-container grid-list-md text-xs-center>
+    <v-layout row wrap justify-center align-center>
+      <v-flex xs12>
+        <v-card>
+          <v-img src="/header.jpg" alt="header" />
+        </v-card>
+      </v-flex>
+      <v-flex xs12>
+        <v-card>
+          <v-card-title class="headline">桜島の降灰予報をあなたの手のひらで</v-card-title>
+          <v-card-text>
+            <a href="https://geo.itunes.apple.com/jp/app/ying-dao-feng-xiang-qing-bao/id585918324?mt=8">
+              <img alt="Get it on App Store" src="https://linkmaker.itunes.apple.com/images/badges/ja-jp/badge_appstore-lrg.svg" height="50px">
+            </a>
+            <a href="https://play.google.com/store/apps/details?id=megos.app.sakurawind&hl=ja&utm_source=global_co&utm_medium=prtnr&utm_content=Mar2515&utm_campaign=PartBadge&pcampaignid=MKT-AC-global-none-all-co-pr-py-PartBadges-Oct1515-1">
+              <img class="gplay" alt="Get it on Google Play" src="https://play.google.com/intl/ja_jp/badges/images/apps/ja-play-badge.png" height="58px"/>
+            </a>
+          </v-card-text>
+        </v-card>
+      </v-flex>
+      <v-flex xs12>
+        <v-card>
+          <v-card-text>
+            <p class="container text-center">
+              Apple、Apple ロゴ、iPad、iPhone、iPod touch は米国および他の国々で登録された Apple Inc. の商標です。
+          App Store は Apple Inc. のサービスマークです。</p>
+            <p class="container text-center">Android、Google Play、Google Play ロゴは、Google Inc. の商標です。</p>
+          </v-card-text>
+        </v-card>
+      </v-flex>
+    </v-layout>
+  </v-container>
 </template>
+
+<style scoped>
+.gplay {
+  vertical-align: -4px;
+}
+</style>
