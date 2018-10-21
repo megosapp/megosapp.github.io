@@ -1,6 +1,6 @@
 <template>
   <v-app>
-    <v-toolbar fixed app :clipped-left="clipped">
+    <v-toolbar fixed dark app color="primary" :clipped-left="clipped">
       <v-toolbar-title v-text="title"/>
     </v-toolbar>
     <v-content>
@@ -9,7 +9,7 @@
       </v-container>
     </v-content>
     <v-footer :fixed="fixed" app>
-      <span>&copy; {{ new Date().getFullYear() }}</span>
+      <span>&copy; MegosApp</span>
     </v-footer>
   </v-app>
 </template>
@@ -20,7 +20,7 @@
       return {
         clipped: false,
         fixed: false,
-        title: 'Vuetify.js'
+        title: '桜島降灰予報'
       }
     }
   }
