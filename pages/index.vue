@@ -2,9 +2,9 @@
   <v-layout column justify-center align-center>
     <v-flex xs12 sm8 md6>
       <v-card>
-        <v-responsive>
+        <v-card-media>
         <v-img src="/header.jpg" alt="header" />
-        </v-responsive>
+        </v-card-media>
       </v-card>
       <v-card>
         <v-card-title class="headline">桜島の降灰予報をあなたの手のひらで</v-card-title>
@@ -22,10 +22,6 @@
           <br>
           <a href="https://github.com/nuxt/nuxt.js" target="_blank">Nuxt GitHub</a>
         </v-card-text>
-        <v-card-actions>
-          <v-spacer></v-spacer>
-          <v-btn color="primary" flat nuxt to="/inspire">Continue</v-btn>
-        </v-card-actions>
       </v-card>
     </v-flex>
   </v-layout>
