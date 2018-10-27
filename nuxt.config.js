@@ -15,6 +15,11 @@ export default {
     ]
   },
   plugins: ['~/plugins/vuetify.js'],
+  modules: [
+    ['@nuxtjs/google-analytics', {
+      id: 'UA-37532600-3'
+    }]
+  ],
   css: [
     '~/assets/style/app.styl'
   ],
