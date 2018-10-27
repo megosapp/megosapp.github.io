@@ -30,7 +30,7 @@ export default {
     /*
     ** Run ESLint on save
     */
-    extend (config, {isDev}) {
+    extend (config, { isDev }) {
       if (isDev && process.client) {
         config.module.rules.push({
           enforce: 'pre',
