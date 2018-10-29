@@ -7,7 +7,12 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '桜島降灰予報を確認できるアプリ' }
+      { hid: 'description', name: 'description', content: '桜島の降灰予報を確認できるアプリ' },
+      { name: 'og:url', content: 'https://sakurajima-ashfall.netlify.com' },
+      { name: 'og:title', content: '桜島降灰予報' },
+      { name: 'og:description', content: '桜島の降灰予報を確認できるアプリ' },
+      { name: 'og:image', content: 'https://sakurajima-ashfall.netlify.com/icon.png' },
+      { name: 'og:type', content: 'website' }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
