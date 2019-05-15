@@ -1,6 +1,6 @@
 <template>
   <v-layout>
-    <v-flex text-xs-center>
+    <v-flex>
       <h2>Privacy Policy</h2>
       <p>
         MegosApp built the "Sakurajima Ashfall Information" app as a Free app. This SERVICE is provided by
