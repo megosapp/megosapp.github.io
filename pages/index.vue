@@ -30,6 +30,7 @@
                 height="50px"
               >
             </a>
+            <!-- eslint-disable-next-line max-len -->
             <a href="https://play.google.com/store/apps/details?id=megos.app.sakurawind&hl=ja&utm_source=global_co&utm_medium=prtnr&utm_content=Mar2515&utm_campaign=PartBadge&pcampaignid=MKT-AC-global-none-all-co-pr-py-PartBadges-Oct1515-1">
               <img
                 class="gplay"

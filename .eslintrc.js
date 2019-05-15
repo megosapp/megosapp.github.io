@@ -10,5 +10,11 @@ module.exports = {
   extends: [
     '@megos/eslint-config-base',
     'plugin:vue/recommended',
-  ]
+  ],
+  rules: {
+    'max-len': [
+      'error',
+      120,
+    ],
+  }
 }
