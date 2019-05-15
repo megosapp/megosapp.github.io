@@ -1,16 +1,20 @@
 module.exports = {
   root: true,
-  parser: 'babel-eslint',
+  parserOptions: {
+    parser: 'babel-eslint',
+  },
   env: {
     browser: true,
     node: true
   },
-  extends: 'standard',
-  // required to lint *.vue files
-  plugins: [
-    'html'
+  extends: [
+    '@megos/eslint-config-base',
+    'plugin:vue/recommended',
   ],
-  // add your custom rules here
-  rules: {},
-  globals: {}
+  rules: {
+    'max-len': [
+      'error',
+      120,
+    ],
+  }
 }
