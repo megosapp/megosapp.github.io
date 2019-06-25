@@ -17,7 +17,7 @@
     "vuetify": "1.5.16"
   },
   "devDependencies": {
-    "@megos/eslint-config-base": "0.0.3",
+    "@megos/eslint-config-base": "0.0.5",
     "babel-eslint": "10.0.2",
     "eslint": "5.16.0",
     "eslint-import-resolver-webpack": "0.11.1",
