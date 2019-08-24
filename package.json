@@ -14,7 +14,7 @@
   "dependencies": {
     "@nuxtjs/google-analytics": "2.2.0",
     "nuxt": "2.8.1",
-    "vuetify": "1.5.16"
+    "vuetify": "1.5.18"
   },
   "devDependencies": {
     "@megos/eslint-config-base": "0.0.5",
