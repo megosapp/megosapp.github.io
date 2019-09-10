@@ -22,7 +22,7 @@
           <v-card-title class="headline">
             桜島の降灰予報をあなたの手のひらで
           </v-card-title>
-          <v-card-text>
+          <v-card-text class="text-center">
             <a href="https://geo.itunes.apple.com/jp/app/ying-dao-feng-xiang-qing-bao/id585918324?mt=8">
               <img
                 alt="Get it on App Store"
@@ -44,12 +44,12 @@
       </v-flex>
       <v-flex xs12>
         <v-card>
-          <v-card-text>
-            <p class="container text-center">
+          <v-card-text class="text-center">
+            <p>
               Apple、Apple ロゴ、iPad、iPhone、iPod touch は米国および他の国々で登録された Apple Inc. の商標です。
               App Store は Apple Inc. のサービスマークです。
             </p>
-            <p class="container text-center">
+            <p>
               Android、Google Play、Google Play ロゴは、Google Inc. の商標です。
             </p>
           </v-card-text>
