@@ -1156,7 +1156,7 @@
     webpack-node-externals "^1.7.2"
     webpackbar "^4.0.0"
 
-"@nuxtjs/eslint-config@^1.1.2":
+"@nuxtjs/eslint-config@1.1.2":
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/@nuxtjs/eslint-config/-/eslint-config-1.1.2.tgz#cde4c950014a781bcc34abbfef9c62546d8fc34c"
   integrity sha512-uKBdza1/Poz32gEodQ9MSW8M9CU4RPdvEiSLX5LWyavrbjhXW9iIbzJzSDlgMhD1QfQ5WrWv1iqL3Bh/ArbIgw==
@@ -1170,7 +1170,7 @@
     eslint-plugin-unicorn "^9.1.1"
     eslint-plugin-vue "^5.2.3"
 
-"@nuxtjs/eslint-module@^1.0.0":
+"@nuxtjs/eslint-module@1.0.0":
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/@nuxtjs/eslint-module/-/eslint-module-1.0.0.tgz#00edf65e0c8f61fa2246339149d906d5ba2751b6"
   integrity sha512-WBh3tBhyc7hP1jKToC4j5sUFDhoikbz3rTGtEWDvHHyC4j8qw4OOqfPQ7onScTzM1xio+XRdMTbOxwoDCHc+cQ==
@@ -1185,7 +1185,7 @@
   dependencies:
     vue-analytics "^5.16.2"
 
-"@nuxtjs/vuetify@^1.8.3":
+"@nuxtjs/vuetify@1.8.3":
   version "1.8.3"
   resolved "https://registry.yarnpkg.com/@nuxtjs/vuetify/-/vuetify-1.8.3.tgz#ab8190aa569d342984f43153afd76b0c58d0c31c"
   integrity sha512-KIbT/f0fRJLZti5E3hpq/ad3Qa5zq37Dt6fc+PChokmdqLJ0FcVvfMeCQjweRAy/X0lkK1AYGDwzIcUaDSJvew==
