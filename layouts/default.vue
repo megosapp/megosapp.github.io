@@ -1,14 +1,14 @@
 <template>
   <v-app>
-    <v-toolbar
+    <v-app-bar
       fixed
       dark
       app
       color="primary"
-      :clipped-left="clipped"
+      clipped-left
     >
       <v-toolbar-title v-text="title" />
-    </v-toolbar>
+    </v-app-bar>
     <v-content>
       <v-container>
         <nuxt />

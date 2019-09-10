@@ -13,16 +13,16 @@
   },
   "dependencies": {
     "@nuxtjs/google-analytics": "2.2.0",
-    "nuxt": "2.9.2",
-    "vuetify": "1.5.18"
+    "nuxt": "2.9.2"
   },
   "devDependencies": {
+    "@nuxtjs/vuetify": "^1.8.3",
+    "@nuxtjs/eslint-config": "^1.1.2",
+    "@nuxtjs/eslint-module": "^1.0.0",
     "@megos/eslint-config-base": "0.0.5",
     "babel-eslint": "10.0.3",
     "eslint": "6.3.0",
     "eslint-import-resolver-webpack": "0.11.1",
-    "eslint-plugin-vue": "5.2.3",
-    "stylus": "0.54.7",
-    "stylus-loader": "3.0.2"
+    "eslint-plugin-vue": "5.2.3"
   }
 }
