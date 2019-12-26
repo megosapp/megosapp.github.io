@@ -16,7 +16,7 @@
     "nuxt": "2.9.2"
   },
   "devDependencies": {
-    "@nuxtjs/vuetify": "1.8.3",
+    "@nuxtjs/vuetify": "1.9.1",
     "@nuxtjs/eslint-config": "1.1.2",
     "@nuxtjs/eslint-module": "1.1.0",
     "@megos/eslint-config-base": "0.0.5",
