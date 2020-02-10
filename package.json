@@ -17,7 +17,7 @@
   },
   "devDependencies": {
     "@nuxtjs/vuetify": "1.10.3",
-    "@nuxtjs/eslint-config": "2.0.0",
+    "@nuxtjs/eslint-config": "2.0.2",
     "@nuxtjs/eslint-module": "1.1.0",
     "@megos/eslint-config-base": "0.0.5",
     "babel-eslint": "10.0.3",
