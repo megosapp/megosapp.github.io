@@ -8,6 +8,7 @@
     "cypress:run": "cypress run"
   },
   "dependencies": {
+    "@applitools/eyes-cypress": "^3.12.0",
     "cypress": "^4.9.0",
     "typescript": "^3.9.5"
   }

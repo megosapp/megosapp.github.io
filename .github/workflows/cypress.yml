@@ -1,0 +1,21 @@
+name: Cypress tests
+on:
+  - pull_request
+jobs:
+  cypress-run:
+    name: Cypress run
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: bahmutov/npm-install@v1
+      - name: Start server in the background
+        run: npm run dev &
+      - name: Cypress run
+        uses: cypress-io/github-action@v2
+        with:
+          working-directory: e2e
+          browser: chrome
+        env:
+          CYPRESS_RECORD_KEY: ${{ secrets.CYPRESS_RECORD_KEY }}
+          APPLITOOLS_API_KEY: ${{ secrets.APPLITOOLS_API_KEY }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
