@@ -24,9 +24,5 @@
     "eslint": "7.11.0",
     "eslint-import-resolver-webpack": "0.13.0",
     "eslint-plugin-vue": "7.0.1"
-  },
-  "resolutions": {
-    "kind-of": "6.0.3",
-    "set-value": "3.0.2"
   }
 }
