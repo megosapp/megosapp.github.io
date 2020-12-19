@@ -21,7 +21,7 @@
     "@nuxtjs/eslint-module": "3.0.2",
     "@megos/eslint-config-base": "0.0.6",
     "babel-eslint": "10.1.0",
-    "eslint": "7.15.0",
+    "eslint": "7.16.0",
     "eslint-import-resolver-webpack": "0.13.0",
     "eslint-plugin-vue": "7.3.0"
   }
