@@ -13,7 +13,7 @@
   },
   "dependencies": {
     "@nuxtjs/google-analytics": "2.4.0",
-    "nuxt": "2.15.3"
+    "nuxt": "2.15.4"
   },
   "devDependencies": {
     "@nuxtjs/vuetify": "1.11.3",
