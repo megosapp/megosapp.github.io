@@ -22,7 +22,8 @@ jobs:
         with:
           working-directory: e2e
           browser: chrome
-          command-prefix: 'percy exec -- npx'
+          # NOTE: Wait load images.
+          command-prefix: 'percy exec --network-idle-timeout=1000 -- npx'
         env:
           CYPRESS_RECORD_KEY: ${{ secrets.CYPRESS_RECORD_KEY }}
           PERCY_TOKEN: ${{ secrets.PERCY_TOKEN }}
