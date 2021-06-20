@@ -12,6 +12,9 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - uses: bahmutov/npm-install@v1
+      - uses: bahmutov/npm-install@v1
+        with:
+          working-directory: e2e
       - name: Start server in the background
         run: npm run dev &
       - name: Cypress run
