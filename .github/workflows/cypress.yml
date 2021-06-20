@@ -1,6 +1,10 @@
 name: Cypress tests
 on:
-  - pull_request
+  pull_request:
+  push:
+    branches:
+      - master
+    
 jobs:
   cypress-run:
     name: Cypress run
@@ -15,7 +19,8 @@ jobs:
         with:
           working-directory: e2e
           browser: chrome
+          command-prefix: 'percy exec -- npx'
         env:
           CYPRESS_RECORD_KEY: ${{ secrets.CYPRESS_RECORD_KEY }}
-          APPLITOOLS_API_KEY: ${{ secrets.APPLITOOLS_API_KEY }}
+          PERCY_TOKEN: ${{ secrets.PERCY_TOKEN }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
