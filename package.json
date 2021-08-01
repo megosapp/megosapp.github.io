@@ -12,14 +12,14 @@
     "lint": "eslint --ext=.js,.vue ."
   },
   "dependencies": {
-    "@nuxtjs/google-analytics": "2.4.0",
+    "@nuxtjs/google-gtag": "^1.0.4",
     "nuxt": "2.15.7"
   },
   "devDependencies": {
-    "@nuxtjs/vuetify": "1.12.1",
+    "@megos/eslint-config-base": "0.0.6",
     "@nuxtjs/eslint-config": "6.0.1",
     "@nuxtjs/eslint-module": "3.0.2",
-    "@megos/eslint-config-base": "0.0.6",
+    "@nuxtjs/vuetify": "1.12.1",
     "babel-eslint": "10.1.0",
     "eslint": "7.32.0",
     "eslint-import-resolver-webpack": "0.13.1",
