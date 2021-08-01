@@ -25,7 +25,7 @@ export default {
     },
   },
   modules: [
-    ['@nuxtjs/google-analytics', {
+    ['@nuxtjs/google-gtag', {
       id: 'UA-37532600-3',
     }],
   ],
