@@ -24,11 +24,6 @@ export default {
       prefix: 'og: http://ogp.me/ns#',
     },
   },
-  modules: [
-    ['@nuxtjs/google-gtag', {
-      id: 'UA-37532600-3',
-    }],
-  ],
   /*
   ** Customize the progress bar color
   */
