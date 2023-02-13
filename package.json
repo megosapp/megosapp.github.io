@@ -12,7 +12,7 @@
     "lint": "eslint --ext=.js,.vue ."
   },
   "dependencies": {
-    "nuxt": "2.16.0"
+    "nuxt": "2.16.1"
   },
   "devDependencies": {
     "@megos/eslint-config-base": "0.0.6",
