@@ -256,11 +256,11 @@
     ws "^7.4.1"
 
 "@percy/cypress@^3.1.0":
-  version "3.1.0"
-  resolved "https://registry.yarnpkg.com/@percy/cypress/-/cypress-3.1.0.tgz#19533772739b35759c30e3edd3070922f6ea6b6d"
-  integrity sha512-x4RPo7vMEGA6hmLbQIFwawZZlmiZknhSqPyzckxXgj8VyoW17QQOINxZo/DZTfV0UoUVOzNoHNrJcV3XJnN4FQ==
+  version "3.1.2"
+  resolved "https://registry.yarnpkg.com/@percy/cypress/-/cypress-3.1.2.tgz#a087d3c59a6b155eab5fdb4c237526b9cfacbc22"
+  integrity sha512-JXrGDZbqwkzQd2h5T5D7PvqoucNaiMh4ChPp8cLQiEtRuLHta9nf1lEuXH+jnatGL2j+3jJFIHJ0L7XrgVnvQA==
   dependencies:
-    "@percy/sdk-utils" "^1.0.0-beta.44"
+    "@percy/sdk-utils" "^1.3.1"
 
 "@percy/dom@^1.0.0-beta.52":
   version "1.0.0-beta.52"
@@ -279,12 +279,10 @@
   resolved "https://registry.yarnpkg.com/@percy/logger/-/logger-1.0.0-beta.52.tgz#d040d216c68436fc332cad6dfe4e3ae4da10e807"
   integrity sha512-R7puXEaA1xQM2EWS7wXrWhgLTKre73pmDoY7fyAljHFYdP2IblMVOmT4eUw2D7PS5B5MDS158cYMOT2BjrPTIw==
 
-"@percy/sdk-utils@^1.0.0-beta.44":
-  version "1.0.0-beta.52"
-  resolved "https://registry.yarnpkg.com/@percy/sdk-utils/-/sdk-utils-1.0.0-beta.52.tgz#e761cc8fd39d3bd05f7d80eefa3c74447ec196c7"
-  integrity sha512-NLLYeXqFMOqlJpmOSpnhRacz5asJAeGq83PZoV2KI72DonXDrGtf+j173OGwcg6FUFuk0hLsbB3IWKHJyed+Rw==
-  dependencies:
-    "@percy/logger" "^1.0.0-beta.52"
+"@percy/sdk-utils@^1.3.1":
+  version "1.21.0"
+  resolved "https://registry.yarnpkg.com/@percy/sdk-utils/-/sdk-utils-1.21.0.tgz#57b2ce73e7ea9a86e9f69d40e89f56f8dd294476"
+  integrity sha512-ZI6QbIhMZvE3P73ar7aeXcjSk8/czlS7h55QBynoJNorwimq5xed1CGPHu00uQsCO6dXeEKTfxQcqbCypRE6Hw==
 
 "@types/color-name@^1.1.1":
   version "1.1.1"
