@@ -1,0 +1,21 @@
+.w100 {
+  width: 100%;
+}
+
+@media (width < 640px) {
+  .download-badges {
+    flex-wrap: wrap;
+  }
+}
+
+main, .cards {
+  margin: 15px;
+}
+
+.ios {
+  margin-top: 6px;
+}
+
+.gplay {
+  height: 96px;
+}
